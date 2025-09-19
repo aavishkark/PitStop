@@ -65,9 +65,9 @@ const Navbar = () => {
   return (
     <>
       <div id='navLinksMobile' className='navMobileHidden'>
-            <div className='navLink'><a href='#'>Team<span className='underline'></span></a></div>
-            <div className='navLink'><a href='#'>Driver<span className='underline'></span></a></div> 
-            <div className='navLink'><a href='#'>Tracks<span className='underline'></span></a></div> 
+            <div className='navLink'><a href='#'>Teams<span className='underline'></span></a></div>
+            <div className='navLink'><a href='#'>Drivers<span className='underline'></span></a></div> 
+            <div className='navLink'><a href='#'>Circuits<span className='underline'></span></a></div> 
             <div className='navLink'><a href='#'>Schedule<span className='underline'></span></a></div> 
             <div className='navLink'><a href='#'>Championship<span className='underline'></span></a></div>
             <div className='closeMobileNav' onClick={menuClick}><img src='/Icons/close.svg' alt='closeBtn'/></div>  
