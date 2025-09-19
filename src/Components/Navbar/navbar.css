@@ -1,0 +1,120 @@
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top:0;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: white;
+}
+
+.logo{
+    width: 8%;
+    height: 8%;
+    align-self: center;
+}
+
+#navLinks {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    gap: 7%;
+    align-items: center;
+    padding: 15px 5px;
+}
+
+#navLinks div {
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.navLink a {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 4px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+}
+
+.navLink .underline {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background-color: red;
+  transform: scaleX(0);
+}
+
+.menu {
+    display: none;
+    align-self: center;
+}
+
+#navLinksMobile div {
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.navLinkMobile a {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 4px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+}
+
+.navLinkMobile .underline {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background-color: red;
+    transform: scaleX(0);
+}
+
+.navMobileVisible {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 100vh;
+    background-color: rgb(27, 27, 27);
+    padding: 5%;
+    position: absolute;
+    right: 0px;
+}
+
+#navLinksMobile {
+    display: none;
+}
+
+.navMobileHidden {
+    display: none !important;
+}
+
+@media screen and (max-width: 767px) {
+
+    #navLinksMobile {
+        display: flex;
+    }
+
+    #navLinks {
+        display: none;
+    }
+    .menu {
+        display: block;
+    }
+
+    #navLinksMobile div {
+        margin-bottom: 30px;
+    }
+
+    .logo {
+        width: 15%;
+        height: 8%;
+    }
+}
+
