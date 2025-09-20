@@ -3,22 +3,22 @@
 }
 .dots {
     display: flex;
-    justify-content: center;
+    padding-left: 5%;
     gap: 1rem;
-    align-self: center;
+    cursor: pointer;
 }
 .active {
     color: red;
+    scale: 1.5;
 }
 .heading {
-  color: #ff6f00;
+  color: #ff0000;
   font-size: 3rem;
   font-weight: 900;
   line-height: 1.2;
   letter-spacing: 6px;
   text-transform: uppercase;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
-  height: 100px;
 }
 
 .subHeading {
@@ -28,12 +28,11 @@
   font-weight: 400;
   line-height: 1.6;
   letter-spacing: 1px;
-  height: 150px;
 }
 
 .heroBtn {
   color: white;
-  background-color: red;
+  background-color: rgb(0, 0, 0);
   border: none;
   border-radius: 4px;
   padding: 12px 30px;
@@ -45,7 +44,7 @@
 }
 
 .heroBtn:hover {
-  background-color: #e60000;
+  background-color: #ff0000;
   transform: scale(1.05);
 }
 
@@ -87,7 +86,7 @@
         position: absolute;
         width: 350px;
         right: 0px;
-        bottom: 210px;
+        bottom: 180px;
         z-index: -10;
         opacity: 0.7;
     }

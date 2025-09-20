@@ -100,6 +100,7 @@ nav {
 
     #navLinksMobile {
         display: flex;
+        z-index: 1;
     }
 
     #navLinks {
