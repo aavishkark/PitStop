@@ -1,0 +1,88 @@
+.video-section {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  overflow: hidden;
+}
+.video-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-color: #050303;
+}
+
+.video,
+.video-wrapper {
+  will-change: transform, opacity;
+  transform: translateZ(0);
+}
+
+.video-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+  z-index: 2;
+  padding: 1rem;
+  width: 90%;
+  background: rgba(0, 0, 0, 0.0);
+  border-radius: 12px;
+}
+
+.video-text-header{
+  text-align: start;
+  margin-bottom: 3rem;
+}
+
+.video-text-heading {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+  color: red;
+}
+
+.video-text-subheading {
+  font-size: 0.8rem;
+  letter-spacing: 5px;
+  margin-bottom: 1rem;
+}
+
+.race-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1.2rem;
+}
+
+.race-table th,
+.race-table td {
+  text-align: start;
+  padding: 0.6rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.race-table th {
+  color: red;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.4);
+}
+
+.race-table tr:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+  transition: background-color 0.3s ease;
+}
+
+.previous-race-stories{
+  display: flex;
+  width: 80%;
+  margin: auto;
+  justify-content: space-between;
+}
+

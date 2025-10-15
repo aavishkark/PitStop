@@ -1,13 +1,15 @@
 import Hero from './Components/Hero/Hero';
 import Navbar from './Components/Navbar/Navbar';
-import Animation from './Components/Animation/Animation';
+import PreviousRace from './Components/PreviousRace/PreviousRace'
+import PreviousRaceBottom from './Components/PreviousRaceBottom/PreviousRaceBottom';
 
 function App() {
   return (
     <>
       <Navbar/>
       <Hero/>
-      <Animation />
+      <PreviousRace />
+      <PreviousRaceBottom />
     </>
   )
 }
